@@ -1,1 +1,2 @@
-Some non functional requirement
+All operations applied on a requirements folder must be atomic. As a simple solution it is permitted to
+lock a folder entirely and only permit one instance to access it at all.

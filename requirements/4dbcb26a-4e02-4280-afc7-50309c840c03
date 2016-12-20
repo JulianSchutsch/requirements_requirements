@@ -1,0 +1,10 @@
+Both kinds of contents (Content and Annotation), are split into sections.
+A section is a tag followed by a :, like
+
+section : Sectionname
+
+text : Some text
+
+Some tags may be multi line, other only permit a single line.
+
+The empty spaced used between the tag and the : in this document must be omitted in actual use.

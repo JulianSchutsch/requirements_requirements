@@ -1,0 +1,5 @@
+\textbf{\textbackslash{}requirementssection} with a single parameter is used by the library to write a section
+
+\textbf{\textbackslash{}requirementssubsection} is used for single nested sections
+
+\textbf{\textbackslash{}requirementsparagraph} is used for any further nested sections

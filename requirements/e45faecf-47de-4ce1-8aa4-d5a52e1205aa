@@ -1,0 +1,7 @@
+For tables, the library emits:
+
+\textbf{\textbackslash{}requirementsbegintable} to start a table
+\textbf{\textbackslash{}requirementsendtable} to end a table
+\textbf{\textbackslash{}requirementstableline} to add a row
+
+A row always consists of two entries, the first one being a key

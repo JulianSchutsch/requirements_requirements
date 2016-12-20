@@ -1,1 +1,2 @@
-Some functional requirement
+The core functionality is the manangement of a tree of nodes. A node here can be for example a section,
+a requirement or a description for an attached blob.

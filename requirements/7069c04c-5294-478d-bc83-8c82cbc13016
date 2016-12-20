@@ -1,0 +1,6 @@
+It must be possible to move any node to any location required. This should be possible by a
+\begin{itemize}
+ \item \textbf{set parent} function, assigning a node as a child of any other node
+ \item \textbf{up} function, moving the node before its previous sibling, if possible
+ \item \textbf{down} function, moving the node after its next sibling, if possible
+\end{itemize}

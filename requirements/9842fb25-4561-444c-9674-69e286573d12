@@ -1,0 +1,4 @@
+The \textbf{section} tag shall start a section. It can be accompanied by a \textbf{section-shortcut} tag,
+which gives a short prefix for all requirements inside a section.
+
+Sections may be nested.

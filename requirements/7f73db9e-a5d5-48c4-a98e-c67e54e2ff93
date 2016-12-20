@@ -1,0 +1,5 @@
+All data stored shall be compatible with text based merged and distributed version control.
+This means, that all user edited files must be stored as plain text.
+The unique-id must ensure, there is no collision with file names.
+Blobs are an exception, since they are expected to be added only once and never removed, though they
+still must have a non colliding unique id.

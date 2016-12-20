@@ -1,0 +1,1 @@
+The root node of the tree shall be virtual. New nodes created shall have the root node as its parent.

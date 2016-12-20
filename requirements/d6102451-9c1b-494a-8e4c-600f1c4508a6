@@ -1,0 +1,3 @@
+The \textbf{text} tag starts a common text.
+If no tag is given, or a single line tag ends without a new tag in the next line, the next line
+is treated as a text tag.
