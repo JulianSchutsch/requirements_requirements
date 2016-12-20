@@ -1,0 +1,27 @@
+\documentclass[12]{article}
+\usepackage{parskip}
+\usepackage{longtable}
+\usepackage[left=2cm, right=2cm, top=3cm, bottom=3cm]{geometry}
+\usepackage{fancyhdr}
+\newcommand{\requirementssection}[1]{\section{#1}}
+\newcommand{\requirementssubsection}[1]{\subsection{#1}}
+\newcommand{\requirementsparagraph}[1]{\paragraph #1}
+\newcommand{\requirementsbegintable}{
+ \begin{longtable}[l]{p{2.5cm} | p{14.3cm}}
+ \textbf{Key} & \textbf{Description} \\
+ \hline
+ \endfirsthead
+ \textbf{Key} & \textbf{Description} \\
+ \hline
+ \endhead
+ \hline
+ \multicolumn{2}{r}{{Continued on next page}}
+ \endfoot
+ \endlastfoot
+}
+\newcommand{\requirementsendtable}{\end{longtable}}
+\newcommand{\requirementstableline}[2]{#1 & #2 \\}
+
+\begin{document}
+\input{../latex/requirements.tex}
+\end{document}

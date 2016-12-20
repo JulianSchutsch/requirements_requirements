@@ -1,0 +1,5 @@
+section: Library
+
+The requirements library is a library offering functionality to process requirements stored by the custom
+text requirements format. It is intended to be used by several programs to simplify automation and fast
+work with requirements.
