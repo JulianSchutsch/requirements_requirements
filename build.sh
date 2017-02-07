@@ -1,5 +1,5 @@
 set -e
 req folder .
-req print latex requirements
+req print
 cd doc
 pdflatex requirements.tex
